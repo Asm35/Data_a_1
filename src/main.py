@@ -17,3 +17,5 @@ df_o = df_o.merge(df_od_2)
 df_o = df_o.merge(df_c)
 df_o_result = df_o.groupby('ContactName').Revenue.sum().sort_values()
 print(df_o_result)
+
+s = []
